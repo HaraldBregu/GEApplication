@@ -20,7 +20,7 @@ class AnimalController: UIViewController, AlertController {
         self.labelLog.isHidden = true
         self.animalsButtons?.forEach ({ $0.layer.cornerRadius = 3 })
         self.nextButton.layer.cornerRadius = 3
-        
+
         GEApplication.current.addListener(self) { (application) in
             let felinsEvents = application.fireEvents(["Lion", "Cat", "Tiger", "Leopard"], match: true)
             
