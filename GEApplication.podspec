@@ -25,7 +25,7 @@ Sometimes managing and registering all events in the app become to difficult and
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Harald Bregu' => 'harald.bregu@gmail.com' }
-  s.source           = { :git => 'https://github.com/AldoOS/GEApplication.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/HaraldBregu/GEApplication.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/HaraldBregu'
 
   s.ios.deployment_target = '8.0'
