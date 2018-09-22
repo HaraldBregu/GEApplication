@@ -1,0 +1,11 @@
+framework module GEApplication {
+  umbrella header "GEApplication-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module GEApplication.Swift {
+    header "GEApplication-Swift.h"
+    requires objc
+}

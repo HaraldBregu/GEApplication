@@ -1,0 +1,16 @@
+PODS:
+  - GEApplication (0.1.0)
+
+DEPENDENCIES:
+  - GEApplication (from `../`)
+
+EXTERNAL SOURCES:
+  GEApplication:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GEApplication: bdc6a1cdb4807c459a964882ea898a86a275dcf7
+
+PODFILE CHECKSUM: 84d825280fade8c541e3591e777a8139f2cde584
+
+COCOAPODS: 1.5.3

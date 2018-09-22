@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GEApplication_Example' do
+  pod 'GEApplication', :path => '../'
+
+  target 'GEApplication_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

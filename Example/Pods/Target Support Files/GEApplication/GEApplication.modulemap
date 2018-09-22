@@ -1,0 +1,6 @@
+framework module GEApplication {
+  umbrella header "GEApplication-umbrella.h"
+
+  export *
+  module * { export * }
+}
