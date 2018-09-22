@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GEApplication'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Managing global events in app by sending signal to the listener.'
 
 # This description is used to generate tags and improve search results.
